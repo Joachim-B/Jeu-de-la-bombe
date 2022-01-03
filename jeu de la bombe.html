@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <title>Jeu de la bombe</title>
+        <link rel="stylesheet" href="jeu de la bombe.css">
+        <script src="jeu de la bombe.js"></script>
+    </head>
+    <body>
+        <h1>Jeu de la bombe</h1>
+        <h2>Cliquez sur toutes les cartes sans tomber sur la bombe !</h2>
+        <p id="tries">Cartes restantes : 15</p>
+        <div id="plateau">
+            <div class="rows" id="row1">
+                <div class="cards" id="card1" onclick="doClick('card1')"></div>
+                <div class="cards" id="card2" onclick="doClick('card2')"></div>
+                <div class="cards" id="card3" onclick="doClick('card3')"></div>
+                <div class="cards" id="card4" onclick="doClick('card4')"></div>
+            </div>
+            <div class="rows" id="row2">
+                <div class="cards" id="card5" onclick="doClick('card5')"></div>
+                <div class="cards" id="card6" onclick="doClick('card6')"></div>
+                <div class="cards" id="card7" onclick="doClick('card7')"></div>
+                <div class="cards" id="card8" onclick="doClick('card8')"></div>
+            </div>
+            <div class="rows" id="row3">
+                <div class="cards" id="card9" onclick="doClick('card9')"></div>
+                <div class="cards" id="card10" onclick="doClick('card10')"></div>
+                <div class="cards" id="card11" onclick="doClick('card11')"></div>
+                <div class="cards" id="card12" onclick="doClick('card12')"></div>
+            </div>
+            <div class="rows" id="row4">
+                <div class="cards" id="card13" onclick="doClick('card13')"></div>
+                <div class="cards" id="card14" onclick="doClick('card14')"></div>
+                <div class="cards" id="card15" onclick="doClick('card15')"></div>
+                <div class="cards" id="card16" onclick="doClick('card16')"></div>
+            </div>
+        </div>
+        <p id="result"></p>
+    </body>
+</html>

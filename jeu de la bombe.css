@@ -1,0 +1,26 @@
+body {
+    max-width: 800px;
+    margin: auto;
+}
+
+#plateau {
+    display: flex;
+    justify-content:center;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    gap: 10px;
+    margin: auto;
+}
+.rows {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 50px;
+}
+.cards {
+    height: 70px;
+    width: 50px;
+    background-color: red;
+    border: solid black 1px;
+    border-radius: 5px;
+    display: table;
+}
